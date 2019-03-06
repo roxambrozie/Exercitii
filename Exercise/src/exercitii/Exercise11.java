@@ -16,5 +16,4 @@ public class Exercise11 {
 
         System.out.println("Their sum is : " + sum );
     }
-
 }
