@@ -1,8 +1,7 @@
 package banking.deposits;
 
-import banking.Payment;
-import banking.Product;
-import banking.deposits.EnumDeposits;
+import banking.payment.Payment;
+import banking.product.Product;
 
 import java.util.ArrayList;
 import java.util.List;

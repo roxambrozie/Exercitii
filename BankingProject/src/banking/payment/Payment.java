@@ -1,4 +1,4 @@
-package banking;
+package banking.payment;
 
 import banking.credits.Credit;
 

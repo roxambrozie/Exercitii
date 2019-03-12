@@ -1,7 +1,7 @@
 package banking.credits;
 
-import banking.Payment;
-import banking.Product;
+import banking.payment.Payment;
+import banking.product.Product;
 
 import java.time.LocalDate;
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package banking;
+package banking.product;
 
 import java.math.BigDecimal;
 

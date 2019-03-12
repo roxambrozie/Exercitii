@@ -1,6 +1,6 @@
 package banking.myaccount;
 
-import banking.Payment;
+import banking.payment.Payment;
 import banking.credits.Credit;
 import banking.credits.EnumCredits;
 import banking.deposits.Deposit;
