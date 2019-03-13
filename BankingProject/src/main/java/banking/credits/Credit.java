@@ -9,11 +9,11 @@ import java.util.List;
 import java.util.Random;
 
 public class Credit extends Product {
+
     EnumCredits.Credits type;
     boolean mortgage;
     int duration;
-    double creditValue;
-    double dobanda;
+    double interestRate;
     static double monthlyInstallment;
     double totalInstallment;
     LocalDate startDate;
@@ -26,6 +26,35 @@ public class Credit extends Product {
         return creditName;
     }
 
+    public double getCreditValue() {
+        return creditValue;
+    }
+
+    double creditValue;
+
+    public double getInterestRate() {
+        return interestRate;
+    }
+    public LocalDate getStartDate() {
+        return startDate;
+    }
+
+    public int getDuration() {
+        return duration;
+    }
+
+    public void setDuration(int duration) {
+        this.duration = duration;
+    }
+
+    public boolean isMortgage() {
+        return mortgage;
+    }
+
+    public void setMortgage(boolean mortgage) {
+        this.mortgage = mortgage;
+    }
+
     public void setName() {
 
         Random rand = new Random();
@@ -35,6 +64,10 @@ public class Credit extends Product {
         } else if (type == EnumCredits.Credits.REPAIRS_CREDIT) {
             this.creditName = "Repairs Credit " + index;
         } else this.creditName = "Personal Needs Credit " + index;
+    }
+
+    public EnumCredits.Credits getType() {
+        return type;
     }
 
     public static void setReferenceDate(LocalDate referenceDate) {
@@ -51,7 +84,7 @@ public class Credit extends Product {
 
     public Credit(double creditValue, int duration, double dobanda, LocalDate startDate) {
         this.creditValue = creditValue;
-        this.dobanda = dobanda;
+        this.interestRate = dobanda;
         this.duration = duration;
         this.startDate = startDate;
     }
@@ -89,7 +122,7 @@ public class Credit extends Product {
     }
 
     public double getInstallmentAmountPerMonth() {
-        this.monthlyInstallment = ((this.creditValue / this.duration) * this.dobanda);
+        this.monthlyInstallment = ((this.creditValue / this.duration) * this.interestRate);
         return monthlyInstallment;
     }
 
@@ -113,16 +146,16 @@ public class Credit extends Product {
         return penaltyInstallment;
     }
 
-    public int periodOfMonthsPaid () {
+    public int periodOfMonthsPaid() {
         int numberOfMonthsPaid =
-                (int) (sumPayments/monthlyInstallment);
-        return  numberOfMonthsPaid;
+                (int) (sumPayments / monthlyInstallment);
+        return numberOfMonthsPaid;
     }
 
     public int periodOfMonthsLeftToBePaid() {
-         int numberOfMonthsLeftToBePaid =
-                 (int) ((totalInstallment - sumPayments) / monthlyInstallment);
-         return numberOfMonthsLeftToBePaid;
+        int numberOfMonthsLeftToBePaid =
+                (int) ((totalInstallment - sumPayments) / monthlyInstallment);
+        return numberOfMonthsLeftToBePaid;
     }
 
 

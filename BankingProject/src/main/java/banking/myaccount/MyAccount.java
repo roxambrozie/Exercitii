@@ -2,15 +2,22 @@ package banking.myaccount;
 
 import banking.credits.Credit;
 import banking.deposits.Deposit;
-
+import banking.users.User;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class MyAccount {
 
-    List<Credit> creditList = new ArrayList<>();
-    List<Deposit> depositList = new ArrayList<>();
+    User user;
+    List<Credit> creditList;
+    List<Deposit> depositList;
+
+    public MyAccount() {
+        this.user = new User();
+        this.creditList = new ArrayList<>();
+        this.depositList = new ArrayList<>();
+    }
 
     public void addCreditTolist(Credit credit) {
         creditList.add(credit);

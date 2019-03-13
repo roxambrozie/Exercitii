@@ -3,6 +3,7 @@ package banking.deposits;
 import banking.payment.Payment;
 import banking.product.Product;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -13,6 +14,27 @@ public class Deposit extends Product {
     EnumDeposits.Deposits type;
     List<Payment> depositList = new ArrayList<>();
     boolean depositTerm;
+    double interestRate;
+    LocalDate startDate;
+
+
+    public LocalDate getStartDate() {
+        return startDate;
+    }
+
+
+    public void setStartDate(LocalDate startDate) {
+        this.startDate = startDate;
+    }
+
+    public double getInterestRate() {
+        return interestRate;
+    }
+
+    public void setInterestRate(double interestRate) {
+        this.interestRate = interestRate;
+    }
+
 
     public EnumDeposits.Deposits getType() {
         return type;
