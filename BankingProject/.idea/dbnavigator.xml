@@ -25,13 +25,13 @@
     <show-object-properties value="false" />
     <loaded-nodes>
       <connection connection-id="7bd7f7bc-fe21-45b7-bfb3-69896e6655fa">
-        <schema name="bankingapp" object-types="table, view, procedure, function, dataset trigger, constraint, column, index" />
+        <schema name="bankingapp" object-types="index, dataset trigger, table, column, constraint, procedure, view, function" />
       </connection>
     </loaded-nodes>
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="7bd7f7bc-fe21-45b7-bfb3-69896e6655fa">
-      <console name="Connection" type="STANDARD" schema="bankingapp" session="Main"><![CDATA[select* from payments]]></console>
+      <console name="Connection" type="STANDARD" schema="bankingapp" session="Main">select * from credits;</console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">

@@ -1,62 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/main/java/banking/myaccount/MyAccount.java" line="5" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/banking/myaccount/MyAccount.java" line="6" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac0e7d3d-aaed-4f3d-bc0e-3b4bd0eb1e92" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/banking/app/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/banking/credits/Credit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/banking/credits/EnumCredits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/banking/database/DatabaseManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/banking/deposits/Deposit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/banking/deposits/EnumDeposits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/banking/myaccount/Display.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/banking/myaccount/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/banking/myaccount/MyAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/banking/payment/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/banking/product/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/banking/users/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/banking/util/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Banking/src/banking/Credits.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Banking/src/banking/Credits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Banking/src/banking/Deposits.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Banking/src/banking/Deposits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Banking/src/banking/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Banking/src/banking/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Banking/src/banking/MyAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Banking/src/banking/MyAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankingProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BankingProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BankingProject/banking/Payment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BankingProject/banking/Product.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BankingProject/banking/credits/Credit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BankingProject/banking/credits/EnumCredits$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BankingProject/banking/credits/EnumCredits$Credits.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BankingProject/banking/credits/EnumCredits.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BankingProject/banking/deposits/Deposit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BankingProject/banking/deposits/EnumDeposits$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BankingProject/banking/deposits/EnumDeposits$Deposits.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BankingProject/banking/deposits/EnumDeposits.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BankingProject/banking/myaccount/Display.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BankingProject/banking/myaccount/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BankingProject/banking/myaccount/MyAccount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BankingProject/banking/util/Constants.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/banking/credits/Credit.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/banking/credits/EnumCredits.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/banking/deposits/Deposit.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/banking/deposits/EnumDeposits.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/banking/myaccount/Display.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/banking/myaccount/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/banking/myaccount/MyAccount.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/banking/payment/Payment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/banking/product/Product.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/banking/util/Constants.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise/out/production/Exercise/exercitii/Exercise17to21.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise/out/production/Exercise/exercitii/Exercise17to21.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise/src/exercitii/Exercise17to21.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise/src/exercitii/Exercise17to21.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../parking/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../parking/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../parking/src/main/java/util/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/../parking/src/main/java/util/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../parking/src/test/java/parkingtest/ParkingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../parking/src/test/java/parkingtest/ParkingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/banking/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/banking/app/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/banking/database/DatabaseManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/banking/database/DatabaseManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/banking/myaccount/MyAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/banking/myaccount/MyAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/banking/util/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/banking/util/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/banking/database/ConnectToDB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/banking/myaccount/MyAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/banking/myaccount/MyAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/banking/users/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/banking/users/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/banking/util/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/banking/util/Constants.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -68,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/banking/myaccount/MyAccount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+            <state relative-caret-position="418">
+              <caret line="86" column="57" lean-forward="true" selection-start-line="86" selection-start-column="57" selection-end-line="86" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,15 +39,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/banking/deposits/Deposit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-500">
+              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#457#458#0" expanded="true" />
+                <element signature="e#489#490#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/banking/credits/Credit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="129" column="16" selection-start-line="129" selection-start-column="16" selection-end-line="129" selection-end-column="16" />
+            <state relative-caret-position="629">
+              <caret line="45" column="43" lean-forward="true" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#911#912#0" expanded="true" />
                 <element signature="e#942#943#0" expanded="true" />
-                <element signature="e#987#988#0" expanded="true" />
                 <element signature="e#1027#1028#0" expanded="true" />
               </folding>
             </state>
@@ -99,21 +70,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/banking/users/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-              <folding>
-                <element signature="e#367#368#0" expanded="true" />
-                <element signature="e#398#399#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="261">
+              <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/banking/database/DatabaseManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="133" column="5" lean-forward="true" selection-start-line="133" selection-start-column="5" selection-end-line="133" selection-end-column="5" />
+            <state relative-caret-position="357">
+              <caret line="141" column="37" selection-start-line="141" selection-start-column="37" selection-end-line="141" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -124,8 +91,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/banking/app/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="306">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -136,20 +103,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/banking/util/Constants.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="72" selection-start-line="9" selection-start-column="72" selection-end-line="9" selection-end-column="72" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/banking/myaccount/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="170">
+              <caret line="10" column="76" lean-forward="true" selection-start-line="10" selection-start-column="76" selection-end-line="10" selection-end-column="76" />
             </state>
           </provider>
         </entry>
@@ -157,7 +112,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="db://7bd7f7bc-fe21-45b7-bfb3-69896e6655fa/consoles/Connection">
           <provider selected="true" editor-type-id="0.CONSOLE">
-            <state line="0" column="21" selection-start="21" selection-end="21" vertical-scroll-proportion="-0.0">
+            <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -206,13 +161,13 @@
         <option value="$PROJECT_DIR$/src/main/java/banking/database/Connection.java" />
         <option value="$PROJECT_DIR$/src/main/java/banking/credits/Credit.java" />
         <option value="$PROJECT_DIR$/src/main/java/banking/deposits/Deposit.java" />
-        <option value="7bd7f7bc-fe21-45b7-bfb3-69896e6655fa/consoles/Connection" />
         <option value="$PROJECT_DIR$/src/main/java/banking/database/ConnectToDB.java" />
-        <option value="$PROJECT_DIR$/src/main/java/banking/database/DatabaseManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/banking/users/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/banking/myaccount/MyAccount.java" />
         <option value="$PROJECT_DIR$/src/main/java/banking/util/Constants.java" />
         <option value="$PROJECT_DIR$/src/main/java/banking/app/Main.java" />
+        <option value="7bd7f7bc-fe21-45b7-bfb3-69896e6655fa/consoles/Connection" />
+        <option value="$PROJECT_DIR$/src/main/java/banking/database/DatabaseManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/banking/myaccount/MyAccount.java" />
       </list>
     </option>
   </component>
@@ -231,10 +186,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="47" />
-    <option name="width" value="1017" />
-    <option name="height" value="955" />
+    <option name="x" value="-12" />
+    <option name="y" value="3" />
+    <option name="width" value="1038" />
+    <option name="height" value="1020" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -275,6 +230,24 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="banking" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="BankingProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BankingProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="banking" type="462c0819:PsiDirectoryNode" />
+              <item name="deposits" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BankingProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BankingProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="banking" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -284,7 +257,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552485902412" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552558046544" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -303,13 +276,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DatabaseManager">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="DatabaseManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="banking.database.DatabaseManager" />
       <module name="BankingProject" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="banking.database.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="banking.app.Main" />
+      <module name="BankingProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="banking.app.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -329,6 +315,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.DatabaseManager" />
         <item itemvalue="Application.Main" />
       </list>
@@ -357,21 +344,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-12" y="3" width="1038" height="1020" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info id="DB Browser" order="0" weight="0.19189766" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.4989059" visible="true" weight="0.12473348" />
+      <window_info id="DB Browser" order="0" weight="0.19402985" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.4989059" visible="true" weight="0.24335378" />
       <window_info id="Structure" order="2" sideWeight="0.5010941" side_tool="true" weight="0.3263041" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="DB Execution Console" order="0" visible="true" weight="0.29252437" />
+      <window_info anchor="bottom" id="DB Execution Console" order="0" visible="true" weight="0.30439684" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32932165" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49957734" weight="0.28169015" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49957734" weight="0.3145434" />
       <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.49916387" weight="0.39869988" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -456,77 +443,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/banking/deposits/Deposit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="67" column="35" lean-forward="true" selection-start-line="67" selection-start-column="35" selection-end-line="67" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
-            <element signature="e#489#490#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="db://7bd7f7bc-fe21-45b7-bfb3-69896e6655fa/consoles/Connection">
-      <provider selected="true" editor-type-id="0.CONSOLE">
-        <state line="1" column="7" selection-start="0" selection-end="47" vertical-scroll-proportion="-0.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="db://7bd7f7bc-fe21-45b7-bfb3-69896e6655fa/consoles/Connection">
-      <provider selected="true" editor-type-id="0.CONSOLE">
-        <state line="1" column="7" selection-start="0" selection-end="47" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="db://7bd7f7bc-fe21-45b7-bfb3-69896e6655fa/consoles/Connection">
-      <provider selected="true" editor-type-id="0.CONSOLE">
-        <state line="1" column="7" selection-start="0" selection-end="47" vertical-scroll-proportion="0.028145695">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="db://7bd7f7bc-fe21-45b7-bfb3-69896e6655fa/consoles/Connection">
-      <provider selected="true" editor-type-id="0.CONSOLE">
-        <state line="1" column="26" selection-start="46" selection-end="47" vertical-scroll-proportion="-0.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="db://7bd7f7bc-fe21-45b7-bfb3-69896e6655fa/consoles/Connection">
-      <provider selected="true" editor-type-id="0.CONSOLE">
-        <state line="1" column="26" selection-start="46" selection-end="47" vertical-scroll-proportion="0.028145695">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="db://7bd7f7bc-fe21-45b7-bfb3-69896e6655fa/consoles/Connection">
-      <provider selected="true" editor-type-id="0.CONSOLE">
-        <state line="0" column="21" selection-start="21" selection-end="21" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/banking/credits/Credit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="129" column="16" selection-start-line="129" selection-start-column="16" selection-end-line="129" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#911#912#0" expanded="true" />
-            <element signature="e#942#943#0" expanded="true" />
-            <element signature="e#987#988#0" expanded="true" />
-            <element signature="e#1027#1028#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/banking/myaccount/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
+        <state relative-caret-position="93">
           <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -536,15 +455,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/banking/util/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="72" selection-start-line="9" selection-start-column="72" selection-end-line="9" selection-end-column="72" />
+        <state relative-caret-position="170">
+          <caret line="10" column="76" lean-forward="true" selection-start-line="10" selection-start-column="76" selection-end-line="10" selection-end-column="76" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/banking/app/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="db://7bd7f7bc-fe21-45b7-bfb3-69896e6655fa/consoles/Connection">
+      <provider selected="true" editor-type-id="0.CONSOLE">
+        <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/banking/users/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/banking/credits/Credit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="45" column="43" lean-forward="true" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#911#912#0" expanded="true" />
+            <element signature="e#942#943#0" expanded="true" />
+            <element signature="e#1027#1028#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/banking/deposits/Deposit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-500">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/banking/database/DatabaseManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="141" column="37" selection-start-line="141" selection-start-column="37" selection-end-line="141" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -553,29 +521,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/banking/myaccount/MyAccount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/banking/users/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#398#399#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/banking/database/DatabaseManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="133" column="5" lean-forward="true" selection-start-line="133" selection-start-column="5" selection-end-line="133" selection-end-column="5" />
+        <state relative-caret-position="418">
+          <caret line="86" column="57" lean-forward="true" selection-start-line="86" selection-start-column="57" selection-end-line="86" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

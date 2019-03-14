@@ -7,6 +7,8 @@ public class Constants {
     public static final String ENTER_AMOUNT_TO_PAY_DEPOSIT = "\n Please enter the amount you want to add to you deposit:";
     public static final String CONFIRMATION_AMOUNT_DEPOSIT = "The amount you want to add to your deposit is: ";
 
-    public static final String ENTER_NAME = "\nPlease enter you name: ";
+    public static final String ENTER_SSN = "\nPlease enter you SSN: ";
+    public static final String WISH_NEXT = "\nWhat do you want to do next?";
+
 
 }

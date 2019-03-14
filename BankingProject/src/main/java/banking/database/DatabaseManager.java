@@ -18,8 +18,8 @@ public class DatabaseManager {
             Statement stmt = con.createStatement();
 //           / ResultSet rs =
 //                    stmt.executeQuery("SELECT * FROM users;");
-                   stmt.execute("INSERT INTO payments (creditID, ,dateOfBirth, ssn, phone)" +
-                            " VALUES('Human', 'Popescu', '1990-01-01', 123456712, 0700000000);");
+                   stmt.execute("INSERT INTO payments (paymentId, id)" +
+                            " VALUES(0,3);");
 //            while (rs.next())
 //                System.out.println(rs.getInt(1) + "  " + rs.getString(2) + "  "
 //                        + rs.getString(3) + "  " + rs.getString(4) + "  " + rs.getString(5) + "  " + rs.getString(6));
@@ -29,7 +29,6 @@ public class DatabaseManager {
         } catch (Exception e) {
             System.out.println(e);
         }
-        createPaymentsTable();
 
     }
 
@@ -62,8 +61,8 @@ public class DatabaseManager {
                 + "startDate DATE,"
                 + "value INT,"
                 + "mortgage BOOLEAN,"
-                + "id"
-                + "term INT(2))";
+                + "id INT,"
+                + "term INT(3))";
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             Connection con = DriverManager.getConnection(
