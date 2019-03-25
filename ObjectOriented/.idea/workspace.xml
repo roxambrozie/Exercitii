@@ -2,121 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1028e27-b7b6-4a0c-8fc5-03ea4d7637d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../BankingProject/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BankingProject/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BankingProject/BankingProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BankingProject/ignore.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BankingProject/src/test/java/CreditTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ObjectOriented.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ObjectOriented/META-INF/ObjectOriented.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ObjectOriented/abstractizare/AbstractRecipe.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ObjectOriented/abstractizare/Recipe1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ObjectOriented/abstractizare/RecipeRunner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ObjectOriented/abstractizare/RecipeWithMicrowave.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ObjectOriented/book/Book.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ObjectOriented/book/BookRunner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ObjectOriented/book/Review.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ObjectOriented/customer/Address.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ObjectOriented/customer/Customer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ObjectOriented/customer/CustomerRunner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ObjectOriented/fan/Fan.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ObjectOriented/fan/FanRunner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ObjectOriented/inheritance/Emploeey.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ObjectOriented/inheritance/Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ObjectOriented/inheritance/Student.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ObjectOriented/inheritance/StudentRunner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ObjectOriented/interfete/Aeroplane.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ObjectOriented/interfete/Bird.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ObjectOriented/interfete/ChessGame.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ObjectOriented/interfete/ComplexAlgorithm.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ObjectOriented/interfete/DummyAlgorithm.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ObjectOriented/interfete/Flyable.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ObjectOriented/interfete/FlyableRunner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ObjectOriented/interfete/GameRunner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ObjectOriented/interfete/GamingConsole.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ObjectOriented/interfete/MarioGame.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ObjectOriented/interfete/Project$Class1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ObjectOriented/interfete/Project$Class2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ObjectOriented/interfete/Project$Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ObjectOriented/interfete/Project.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ObjectOriented/interfete/RealAlgorithm.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ObjectOriented/motor/MotorBike.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ObjectOriented/motor/MotorBikeRunner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ObjectOriented/polymorphism/Animal.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ObjectOriented/polymorphism/AnimalRunner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ObjectOriented/polymorphism/Cat.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ObjectOriented/polymorphism/Dog.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ObjectOriented/rectangle/Rectangle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ObjectOriented/rectangle/RectangleRunner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstractizare/AbstractRecipe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstractizare/Recipe1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstractizare/RecipeRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstractizare/RecipeWithMicrowave.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/book/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/book/BookRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/book/Review.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collections/MapRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collections/QueueRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collections/SetRunner.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/collections/Student.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/collections/StudentsCollectionRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/customer/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/customer/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/customer/CustomerRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fan/Fan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fan/FanRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inheritance/Emploeey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inheritance/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inheritance/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inheritance/StudentRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfete/ChessGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfete/ComplexAlgorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfete/DummyAlgorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfete/FlyableRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfete/GameRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfete/GamingConsole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfete/MarioGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfete/Project.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfete/RealAlgorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/motor/MotorBike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/motor/MotorBikeRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/polymorphism/AnimalRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rectangle/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rectangle/RectangleRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Primitive Data Types/src/primitivedatatypes/BiNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankingProject/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BankingProject/.idea/dbnavigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankingProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BankingProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankingProject/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BankingProject/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankingProject/src/main/java/banking/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BankingProject/src/main/java/banking/app/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankingProject/src/main/java/banking/credits/Credit.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BankingProject/src/main/java/banking/credits/Credit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankingProject/src/main/java/banking/credits/EnumCredits.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BankingProject/src/main/java/banking/credits/EnumCredits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankingProject/src/main/java/banking/database/DatabaseManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BankingProject/src/main/java/banking/database/DatabaseManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankingProject/src/main/java/banking/deposits/Deposit.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BankingProject/src/main/java/banking/deposits/Deposit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankingProject/src/main/java/banking/deposits/EnumDeposits.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BankingProject/src/main/java/banking/deposits/EnumDeposits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankingProject/src/main/java/banking/myaccount/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BankingProject/src/main/java/banking/myaccount/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankingProject/src/main/java/banking/myaccount/MyAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BankingProject/src/main/java/banking/myaccount/MyAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankingProject/src/main/java/banking/users/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BankingProject/src/main/java/banking/users/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankingProject/src/main/java/banking/util/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BankingProject/src/main/java/banking/util/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankingProject/target/classes/banking/app/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BankingProject/target/classes/banking/app/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankingProject/target/classes/banking/credits/Credit.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BankingProject/target/classes/banking/credits/Credit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankingProject/target/classes/banking/credits/EnumCredits$Credits.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BankingProject/target/classes/banking/credits/EnumCredits$Credits.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankingProject/target/classes/banking/database/DatabaseManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BankingProject/target/classes/banking/database/DatabaseManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankingProject/target/classes/banking/deposits/Deposit.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BankingProject/target/classes/banking/deposits/Deposit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankingProject/target/classes/banking/deposits/EnumDeposits$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BankingProject/target/classes/banking/deposits/EnumDeposits$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankingProject/target/classes/banking/deposits/EnumDeposits$Deposits.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BankingProject/target/classes/banking/deposits/EnumDeposits$Deposits.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankingProject/target/classes/banking/deposits/EnumDeposits.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BankingProject/target/classes/banking/deposits/EnumDeposits.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankingProject/target/classes/banking/myaccount/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BankingProject/target/classes/banking/myaccount/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankingProject/target/classes/banking/myaccount/MyAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BankingProject/target/classes/banking/myaccount/MyAccount.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankingProject/target/classes/banking/users/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BankingProject/target/classes/banking/users/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankingProject/target/classes/banking/util/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BankingProject/target/classes/banking/util/Constants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../parking/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../parking/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/functional/programming/FPNumberRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/functional/programming/FunctionalProgrammingRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generics/GenericsRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generics/MyCustomList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Conditionals/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Conditionals/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ObjectOriented/polymorphism/AnimalRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ObjectOriented/polymorphism/AnimalRunner.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -128,10 +26,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/collections/StudentsCollectionRunner.java">
+        <entry file="file://$PROJECT_DIR$/src/functional/programming/FPNumberRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="52" lean-forward="true" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+            <state relative-caret-position="442">
+              <caret line="44" column="26" lean-forward="true" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -140,19 +38,21 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/collections/Student.java">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/function/BiFunction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+            <state relative-caret-position="493">
+              <caret line="52" column="6" selection-start-line="52" selection-start-column="6" selection-end-line="52" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/functional/programming/FunctionalProgrammingRunner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
               <folding>
-                <element signature="e#211#212#0" expanded="true" />
-                <element signature="e#236#237#0" expanded="true" />
-                <element signature="e#269#270#0" expanded="true" />
-                <element signature="e#297#298#0" expanded="true" />
-                <element signature="e#328#329#0" expanded="true" />
-                <element signature="e#355#356#0" expanded="true" />
-                <element signature="e#395#396#0" expanded="true" />
-                <element signature="e#427#428#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -214,13 +114,20 @@
         <option value="$PROJECT_DIR$/src/polymorphism/AnimalRunner.java" />
         <option value="$PROJECT_DIR$/src/collections/Student.java" />
         <option value="$PROJECT_DIR$/src/collections/StudentsCollectionRunner.java" />
+        <option value="$PROJECT_DIR$/src/collections/SetRunner.java" />
+        <option value="$PROJECT_DIR$/src/collections/QueueRunner.java" />
+        <option value="$PROJECT_DIR$/src/collections/MapRunner.java" />
+        <option value="$PROJECT_DIR$/src/generics/MyCustomList.java" />
+        <option value="$PROJECT_DIR$/src/generics/GenericsRunner.java" />
+        <option value="$PROJECT_DIR$/src/functional/programming/FunctionalProgrammingRunner.java" />
+        <option value="$PROJECT_DIR$/src/functional/programming/FPNumberRunner.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-6" />
     <option name="y" value="6" />
-    <option name="width" value="1275" />
+    <option name="width" value="910" />
     <option name="height" value="1039" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -229,7 +136,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -246,21 +153,25 @@
               <item name="ObjectOriented" type="b2602c69:ProjectViewProjectNode" />
               <item name="ObjectOriented" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="collections" type="462c0819:PsiDirectoryNode" />
+              <item name="programming" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553270829241" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553527263004" />
+    <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="interfete" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\roxanaa\ObjectOriented" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -275,13 +186,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AnimalRunner">
-    <configuration name="AnimalRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="polymorphism.AnimalRunner" />
+  <component name="RunManager" selected="Application.FPNumberRunner">
+    <configuration name="FPNumberRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="functional.programming.FPNumberRunner" />
       <module name="ObjectOriented" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="polymorphism.*" />
+          <option name="PATTERN" value="functional.programming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -289,12 +200,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FlyableRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interfete.FlyableRunner" />
+    <configuration name="FunctionalProgrammingRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="functional.programming.FunctionalProgrammingRunner" />
       <module name="ObjectOriented" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interfete.*" />
+          <option name="PATTERN" value="functional.programming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -302,12 +213,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GameRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interfete.GameRunner" />
+    <configuration name="GenericsRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generics.GenericsRunner" />
       <module name="ObjectOriented" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interfete.*" />
+          <option name="PATTERN" value="generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -315,12 +226,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Project" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interfete.Project" />
+    <configuration name="MapRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.MapRunner" />
       <module name="ObjectOriented" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interfete.*" />
+          <option name="PATTERN" value="collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -328,12 +239,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecipeRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="abstractizare.RecipeRunner" />
+    <configuration name="QueueRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.QueueRunner" />
       <module name="ObjectOriented" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="abstractizare.*" />
+          <option name="PATTERN" value="collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -342,19 +253,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.RecipeRunner" />
-      <item itemvalue="Application.GameRunner" />
-      <item itemvalue="Application.Project" />
-      <item itemvalue="Application.FlyableRunner" />
-      <item itemvalue="Application.AnimalRunner" />
+      <item itemvalue="Application.QueueRunner" />
+      <item itemvalue="Application.MapRunner" />
+      <item itemvalue="Application.GenericsRunner" />
+      <item itemvalue="Application.FunctionalProgrammingRunner" />
+      <item itemvalue="Application.FPNumberRunner" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AnimalRunner" />
-        <item itemvalue="Application.FlyableRunner" />
-        <item itemvalue="Application.Project" />
-        <item itemvalue="Application.GameRunner" />
-        <item itemvalue="Application.RecipeRunner" />
+        <item itemvalue="Application.FPNumberRunner" />
+        <item itemvalue="Application.FunctionalProgrammingRunner" />
+        <item itemvalue="Application.GenericsRunner" />
+        <item itemvalue="Application.MapRunner" />
+        <item itemvalue="Application.QueueRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -371,11 +282,20 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView" selected-index="1">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="-6" y="6" width="910" height="1039" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3249453" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28588235" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -385,12 +305,12 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3249453" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32781458" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32932165" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32932165" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.33150986" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="DB Execution Console" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
@@ -695,13 +615,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/interfete/Bird.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interfete/Bird.java" />
     <entry file="file://$PROJECT_DIR$/src/polymorphism/AnimalRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -721,40 +635,134 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/interfete/FlyableRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
+        <state relative-caret-position="425">
           <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="e#130#131#0" expanded="true" />
-            <element signature="e#168#169#0" expanded="true" />
-            <element signature="e#250#251#0" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/collections/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        <state>
+          <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
           <folding>
-            <element signature="e#211#212#0" expanded="true" />
-            <element signature="e#236#237#0" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#297#298#0" expanded="true" />
-            <element signature="e#328#329#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
-            <element signature="e#427#428#0" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#588#589#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="144" column="30" selection-start-line="144" selection-start-column="30" selection-end-line="144" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/collections/SetRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="60" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/generics/MyCustomList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#196#197#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/generics/GenericsRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#149#150#0" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/collections/MapRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/collections/StudentsCollectionRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="52" lean-forward="true" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+        <state relative-caret-position="442">
+          <caret line="26" column="54" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/collections/QueueRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/function/BiFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="52" column="6" selection-start-line="52" selection-start-column="6" selection-end-line="52" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/functional/programming/FunctionalProgrammingRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/functional/programming/FPNumberRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="44" column="26" lean-forward="true" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
