@@ -124,7 +124,7 @@ public class CreditTest {
         Credit creditTest2 = new Credit(10000, 12, 1.03, LocalDate.of(2018, 11, 1));
         Credit creditTest3 = new Credit(10000, 12, 1.03, LocalDate.of(2018, 12, 1));
         List<Credit> creditListTest = Arrays.asList(creditTest1,creditTest2,creditTest3);
-        assertThat(creditListTest.size(), is(3));
+        assertThat("The list does  not contain 3 credits",creditListTest.size(), is(3));
         assertThat(creditListTest, contains(creditTest1,creditTest2,creditTest3));
     }
 }
