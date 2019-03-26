@@ -98,4 +98,13 @@ public class CreditTest {
         int numberOfMonthsToBePaidTest = (int) ((totalInstallment - credit.sumPayments) / monthlyInstallmentTest);
         assertEquals(numberOfMonthsToBePaidTest, credit.periodOfMonthsLeftToBePaid(), 1e-8);
     }
+
+    @Test
+    public void addCreditToList() {
+        public List<Credit> creditListTest;
+        MyAccount accountTest = new MyAccount();
+        Credit creditTest = new Credit(10000, 12, 1.03, LocalDate.of(2018, 10, 01));
+        accountTest.addCreditTolist(creditTest);
+        assertThat(creditListTest, contains(creditTest));
+    }
 }

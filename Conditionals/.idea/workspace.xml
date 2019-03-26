@@ -1,38 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc73ba99-a413-4a5c-ab93-fa98edf0723e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../BankingProject/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BankingProject/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BankingProject/ignore.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Primitive Data Types/src/primitivedatatypes/BiNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankingProject/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BankingProject/.idea/dbnavigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankingProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BankingProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankingProject/BankingProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../BankingProject/BankingProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankingProject/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BankingProject/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankingProject/src/main/java/banking/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BankingProject/src/main/java/banking/app/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankingProject/src/main/java/banking/credits/Credit.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BankingProject/src/main/java/banking/credits/Credit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankingProject/src/main/java/banking/credits/EnumCredits.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BankingProject/src/main/java/banking/credits/EnumCredits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankingProject/src/main/java/banking/database/DatabaseManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BankingProject/src/main/java/banking/database/DatabaseManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankingProject/src/main/java/banking/deposits/Deposit.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BankingProject/src/main/java/banking/deposits/Deposit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankingProject/src/main/java/banking/deposits/EnumDeposits.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BankingProject/src/main/java/banking/deposits/EnumDeposits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankingProject/src/main/java/banking/myaccount/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BankingProject/src/main/java/banking/myaccount/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankingProject/src/main/java/banking/myaccount/MyAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BankingProject/src/main/java/banking/myaccount/MyAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankingProject/src/main/java/banking/users/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BankingProject/src/main/java/banking/users/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankingProject/src/main/java/banking/util/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BankingProject/src/main/java/banking/util/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankingProject/target/classes/banking/app/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BankingProject/target/classes/banking/app/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankingProject/target/classes/banking/credits/Credit.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BankingProject/target/classes/banking/credits/Credit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankingProject/target/classes/banking/credits/EnumCredits$Credits.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BankingProject/target/classes/banking/credits/EnumCredits$Credits.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankingProject/target/classes/banking/database/DatabaseManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BankingProject/target/classes/banking/database/DatabaseManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankingProject/target/classes/banking/deposits/Deposit.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BankingProject/target/classes/banking/deposits/Deposit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankingProject/target/classes/banking/deposits/EnumDeposits$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BankingProject/target/classes/banking/deposits/EnumDeposits$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankingProject/target/classes/banking/deposits/EnumDeposits$Deposits.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BankingProject/target/classes/banking/deposits/EnumDeposits$Deposits.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankingProject/target/classes/banking/deposits/EnumDeposits.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BankingProject/target/classes/banking/deposits/EnumDeposits.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankingProject/target/classes/banking/myaccount/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BankingProject/target/classes/banking/myaccount/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankingProject/target/classes/banking/myaccount/MyAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BankingProject/target/classes/banking/myaccount/MyAccount.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankingProject/target/classes/banking/users/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BankingProject/target/classes/banking/users/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankingProject/target/classes/banking/util/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BankingProject/target/classes/banking/util/Constants.class" afterDir="false" />
-    </list>
+    <list default="true" id="fc73ba99-a413-4a5c-ab93-fa98edf0723e" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,12 +23,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/loops/WhileNumberPlayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-              <folding>
-                <element signature="e#91#92#0" expanded="true" />
-                <element signature="e#118#119#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="425">
+              <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -67,8 +32,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/loops/DoWhileRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+            <state relative-caret-position="357">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -102,8 +67,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="y" value="28" />
+    <option name="x" value="5" />
     <option name="width" value="974" />
     <option name="height" value="1019" />
   </component>
@@ -124,6 +88,12 @@
               <item name="Conditionals" type="b2602c69:ProjectViewProjectNode" />
               <item name="Conditionals" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Conditionals" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Conditionals" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="conditionals" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Conditionals" type="b2602c69:ProjectViewProjectNode" />
@@ -222,11 +192,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MenuRunner" />
-      <item itemvalue="Application.SwitchExercisesRunner" />
-      <item itemvalue="Application.MyNumberRunner" />
-      <item itemvalue="Application.WhileNumberPlayerRunner" />
       <item itemvalue="Application.DoWhileRunner" />
+      <item itemvalue="Application.MenuRunner" />
+      <item itemvalue="Application.MyNumberRunner" />
+      <item itemvalue="Application.SwitchExercisesRunner" />
+      <item itemvalue="Application.WhileNumberPlayerRunner" />
     </list>
     <recent_temporary>
       <list>
@@ -252,9 +222,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="28" width="974" height="1019" extended-state="0" />
+    <frame x="5" y="0" width="974" height="1019" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25273523" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25820568" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -338,19 +309,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/loops/WhileNumberPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-          <folding>
-            <element signature="e#91#92#0" expanded="true" />
-            <element signature="e#118#119#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="425">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/loops/DoWhileRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        <state relative-caret-position="357">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>

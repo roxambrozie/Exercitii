@@ -2,19 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1028e27-b7b6-4a0c-8fc5-03ea4d7637d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collections/MapRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collections/QueueRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collections/SetRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collections/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collections/StudentsCollectionRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/functional/programming/FPNumberRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/functional/programming/FunctionalProgrammingRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generics/GenericsRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generics/MyCustomList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/LambdaBehindTheScreenRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankingProject/src/test/java/CreditTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BankingProject/src/test/java/CreditTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Conditionals/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Conditionals/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ObjectOriented/polymorphism/AnimalRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ObjectOriented/polymorphism/AnimalRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/functional/programming/FPNumberRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/functional/programming/FPNumberRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/functional/programming/FunctionalProgrammingRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/functional/programming/FunctionalProgrammingRunner.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,11 +18,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/functional/programming/FPNumberRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="44" column="26" lean-forward="true" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
+            <state relative-caret-position="144">
+              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="81" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/lambda/LambdaBehindTheScreenRunner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -38,22 +43,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/function/BiFunction.java">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/stream/Stream.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="52" column="6" selection-start-line="52" selection-start-column="6" selection-end-line="52" selection-end-column="6" />
+            <state relative-caret-position="194">
+              <caret line="168" column="26" lean-forward="true" selection-start-line="168" selection-start-column="26" selection-end-line="168" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/functional/programming/FunctionalProgrammingRunner.java">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/function/Predicate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="262">
+              <caret line="46" column="30" lean-forward="true" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -119,15 +121,16 @@
         <option value="$PROJECT_DIR$/src/collections/MapRunner.java" />
         <option value="$PROJECT_DIR$/src/generics/MyCustomList.java" />
         <option value="$PROJECT_DIR$/src/generics/GenericsRunner.java" />
-        <option value="$PROJECT_DIR$/src/functional/programming/FunctionalProgrammingRunner.java" />
         <option value="$PROJECT_DIR$/src/functional/programming/FPNumberRunner.java" />
+        <option value="$PROJECT_DIR$/src/functional/programming/FunctionalProgrammingRunner.java" />
+        <option value="$PROJECT_DIR$/src/lambda/LambdaBehindTheScreenRunner.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-6" />
     <option name="y" value="6" />
-    <option name="width" value="910" />
+    <option name="width" value="970" />
     <option name="height" value="1039" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -136,7 +139,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -151,20 +154,19 @@
             </path>
             <path>
               <item name="ObjectOriented" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ObjectOriented" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="programming" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553527263004" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553590919805" />
     <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BankingProject" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -253,11 +255,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.QueueRunner" />
-      <item itemvalue="Application.MapRunner" />
-      <item itemvalue="Application.GenericsRunner" />
-      <item itemvalue="Application.FunctionalProgrammingRunner" />
       <item itemvalue="Application.FPNumberRunner" />
+      <item itemvalue="Application.FunctionalProgrammingRunner" />
+      <item itemvalue="Application.GenericsRunner" />
+      <item itemvalue="Application.MapRunner" />
+      <item itemvalue="Application.QueueRunner" />
     </list>
     <recent_temporary>
       <list>
@@ -292,10 +294,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="6" width="910" height="1039" extended-state="0" />
-    <editor active="true" />
+    <frame x="-6" y="6" width="970" height="1039" extended-state="1" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28588235" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2758242" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -310,7 +311,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32932165" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.33150986" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32502708" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="DB Execution Console" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
@@ -744,25 +745,56 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/function/BiFunction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="52" column="6" selection-start-line="52" selection-start-column="6" selection-end-line="52" selection-end-column="6" />
+        <state relative-caret-position="68">
+          <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/functional/programming/FunctionalProgrammingRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="680">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ObjectOriented.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/stream/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="168" column="26" lean-forward="true" selection-start-line="168" selection-start-column="26" selection-end-line="168" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/function/Predicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="46" column="30" lean-forward="true" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/functional/programming/FPNumberRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="44" column="26" lean-forward="true" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
+        <state relative-caret-position="144">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lambda/LambdaBehindTheScreenRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
