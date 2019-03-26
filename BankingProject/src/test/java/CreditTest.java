@@ -1,10 +1,16 @@
 import banking.credits.Credit;
 import banking.payment.Payment;
+import org.hamcrest.collection.IsEmptyCollection;
 import org.junit.Test;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 import static banking.database.DatabaseManager.checkUserExistsInDatabase;
+import static org.hamcrest.Matchers.contains;
+import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.*;
 
 public class CreditTest {
@@ -101,10 +107,24 @@ public class CreditTest {
 
     @Test
     public void addCreditToList() {
-        public List<Credit> creditListTest;
-        MyAccount accountTest = new MyAccount();
-        Credit creditTest = new Credit(10000, 12, 1.03, LocalDate.of(2018, 10, 01));
-        accountTest.addCreditTolist(creditTest);
+        Credit creditTest = new Credit(10000, 12, 1.03, LocalDate.of(2018, 10, 1));
+        List<Credit> creditListTest = Arrays.asList(creditTest);
         assertThat(creditListTest, contains(creditTest));
+    }
+
+    @Test
+    public void checkCreditListIsEmpty() {
+        List<Credit> emptyCreditListTest=new ArrayList<>();
+        assertThat(emptyCreditListTest, IsEmptyCollection.empty());
+    }
+
+    @Test
+    public void checkCreditListSizeAndOrder() {
+        Credit creditTest1 = new Credit(10000, 12, 1.03, LocalDate.of(2018, 10, 1));
+        Credit creditTest2 = new Credit(10000, 12, 1.03, LocalDate.of(2018, 11, 1));
+        Credit creditTest3 = new Credit(10000, 12, 1.03, LocalDate.of(2018, 12, 1));
+        List<Credit> creditListTest = Arrays.asList(creditTest1,creditTest2,creditTest3);
+        assertThat(creditListTest.size(), is(3));
+        assertThat(creditListTest, contains(creditTest1,creditTest2,creditTest3));
     }
 }
