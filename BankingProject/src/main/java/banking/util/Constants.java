@@ -13,7 +13,7 @@ public class Constants {
             +"\nFor checking the deposits you have please enter number 2."
             +"\nFor checking the amount of your monthly installment please enter number 3."
             +"\nFor checking the amount left to be paid please enter number 4."
-            +"\nFor checking the period in months left to be paid please enter number5.";
+            +"\nFor checking the period in months left to be paid please enter number 5.";
     public static final String INVALID_SSN = "\nThe SSN you entered does not exist in the database.";
 
 
