@@ -4,6 +4,7 @@ import banking.credits.Credit;
 import banking.credits.EnumCredits;
 import banking.deposits.Deposit;
 import banking.deposits.EnumDeposits;
+import banking.payment.Payment;
 import banking.users.User;
 import banking.util.Constants;
 
@@ -56,12 +57,22 @@ public class MyAccount {
         });
     }
 
+    public void getCreditValueLeftToBePaid() {
+        creditList.forEach(credit -> {
+            System.out.println("The amount left to be paid for the credit with the id " + credit.getCreditID() + " is: " + credit.getTotalAmountToBePaid());
+        });
+    }
+
     public void addDepositsToUser(Deposit deposit) {
         insertDeposits(deposit);
     }
 
     public void addCreditsToUser(Credit credit) {
         insertCredits(credit);
+    }
+
+    public void addPayments(Payment payment) {
+        insertPayments(payment);
     }
 
     public void checkThatUserExistsInDatabase(int ssn) {
@@ -92,9 +103,17 @@ public class MyAccount {
                     getCreditNameAndMonthlyInstallment();
                     break;
                 case 4:
-                    getCreditAmountLeftToBePaid();
+                    setCredits();
+                    System.out.println("\nPlease enter the id of the credit you want to see the payments and check the amount left to be paid : ");
+                    int creditID = scanner.nextInt();
+                    System.out.println("\nThere have been made the following payments fot the requested credit :");
+                    ResultSet paymentResult = returnPaymentDetails(creditID);
+
+                    setPayment(paymentResult, creditID);
+                    getCreditValueLeftToBePaid();
                     break;
                 case 5:
+                    setCredits();
                     credit.periodOfMonthsLeftToBePaid();
                     break;
                 default:
@@ -132,8 +151,9 @@ public class MyAccount {
             rs.previous();
             while (rs.next()) {
                 Credit credit1 = new Credit();
-                credit1.setName(rs.getString(1));
                 credit1.setType(EnumCredits.Credits.getStringToEnum(rs.getString(2)));
+                credit1.setName(rs.getString(1));
+                credit1.setCreditID(rs.getInt(1));
                 credit1.setInterestRate(rs.getInt(3));
                 credit1.setStartDate(rs.getDate(4).toLocalDate());
                 credit1.setCreditValue(rs.getDouble(5));
@@ -167,6 +187,34 @@ public class MyAccount {
             e.printStackTrace();
         }
     }
+
+    public void setPayment(ResultSet rs, int creditID) {
+        try {
+            rs.first();
+            rs.previous();
+            while (rs.next()) {
+                Payment payment1 = new Payment();
+                payment1.setPaymentId(rs.getInt(1));
+                payment1.setCreditID(rs.getInt(2));
+                payment1.setDepositId(rs.getInt(3));
+                payment1.setId(rs.getInt(4));
+                payment1.setPaymentAmount(rs.getDouble(5));
+                payment1.setPaymentDate(rs.getDate(6).toLocalDate());
+
+                for (int i = 0; i < creditList.size(); i++) {
+
+                    if (creditList.get(i).getCreditID() == creditID) {
+                        creditList.get(i).addPaymentsToList(payment1);
+                        System.out.println(" ");
+                        break;
+                    }
+                }
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
 
 }
 

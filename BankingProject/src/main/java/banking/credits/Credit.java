@@ -25,6 +25,7 @@ public class Credit extends Product {
     public double sumPayments = 0.0;
     int id;
     private double penaltyInstallment;
+    public int creditID;
 
     public int getId() {
         return id;
@@ -32,6 +33,14 @@ public class Credit extends Product {
 
     public void setId(int id) {
         this.id = id;
+    }
+
+    public int getCreditID() {
+        return creditID;
+    }
+
+    public void setCreditID(int creditID) {
+        this.creditID = creditID;
     }
 
     public void setInterestRate(double interestRate) {
@@ -169,20 +178,6 @@ public class Credit extends Product {
         this.balance = balance;
     }
 
-    @Override
-    public String toString() {
-        StringBuilder result = new StringBuilder("Credit: \n");
-        result.append("Balance: ").append(this.balance);
-        result.append("\nMortgage: ").append(this.mortgage);
-        result.append("\nCredit type: ").append(this.type);
-        result.append("\n\tPayments: [");
-        for (Payment payment : this.mortgagePaymentList) {
-            result.append("\n\t\t{paymentDate: ").append(payment.getPaymentDate()).append("\n\t\tpaymentAmount: ")
-                    .append(payment.getPaymentAmount()).append("}");
-        }
-        result.append("]");
-        return result.toString();
-    }
 
     public double getInstallmentAmountPerMonth() {
 
@@ -203,6 +198,13 @@ public class Credit extends Product {
             sumPayments = sumPayments + i.getPaymentAmount();
         }
         return totalInstallment - sumPayments;
+    }
+
+    public double getTotalAmountToBePaid() {
+        for (Payment i : mortgagePaymentList) {
+            sumPayments = sumPayments + i.getPaymentAmount();
+        }
+        return creditValue - sumPayments;
     }
 
     public double addPenaltyAfterUnpaidThreeMonths() {
@@ -227,4 +229,20 @@ public class Credit extends Product {
 
     public Credit() {
     }
+
+    @Override
+    public String toString() {
+        StringBuilder result = new StringBuilder("Credit: \n");
+        result.append("Balance: ").append(this.balance);
+        result.append("\nMortgage: ").append(this.mortgage);
+        result.append("\nCredit type: ").append(this.type);
+        result.append("\n\tPayments: [");
+        for (Payment payment : this.mortgagePaymentList) {
+            result.append("\n\t\t{paymentDate: ").append(payment.getPaymentDate()).append("\n\t\tpaymentAmount: ")
+                    .append(payment.getPaymentAmount()).append("}");
+        }
+        result.append("]");
+        return result.toString();
+    }
+
 }

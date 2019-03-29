@@ -2,6 +2,7 @@ package banking.database;
 
 import banking.credits.Credit;
 import banking.deposits.Deposit;
+import banking.payment.Payment;
 import banking.users.User;
 
 import java.sql.*;
@@ -106,7 +107,8 @@ public class DatabaseManager {
                 + "FOREIGN KEY(creditID) REFERENCES credits (creditID),"
                 + "depositID INT(10),"
                 + "FOREIGN KEY(depositID) REFERENCES deposits (depositId),"
-                + "id INT(10)"
+                + "id INT(10),"
+                + "amount DOUBLE"
                 + ");";
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
@@ -142,6 +144,13 @@ public class DatabaseManager {
                 "depositId, depositType, interestRate, startDate, term, id)" +
                 "VALUES(%s, %s, %s, %s, %s))";
         return String.format(deposits, deposit.getDepositName(), deposit.getType(), deposit.getInterestRate(), deposit.getStartDate(), deposit.isDepositTerm(), deposit.getId());
+    }
+
+    public static String insertPayments(Payment payment) {
+        String payments = "INSERT INTO Payments(" +
+                "paymentId, creditID, depositId, id, amount, paymentDate)" +
+                "VALUES(%d, %d, %d, %d, %f, %s)";
+        return String.format(payments, payment.getPaymentId(), payment.getCreditID(), payment.getDepositId(), payment.getId(), payment.getPaymentAmount(), payment.getPaymentDate());
     }
 
     public static boolean checkUserExistsInDatabase(int ssn) {
@@ -234,6 +243,54 @@ public class DatabaseManager {
         } catch (Exception e) {
             e.printStackTrace();
         }
+        return rs;
+    }
+
+    public static ResultSet setPaymentObjects() {
+        String query = "SELECT paymentId, amount,  creditID, depositID, payments.id FROM payments " +
+                "INNER JOIN credits " +
+                "ON credits.creditID = payments.creditID " +
+                ";";
+        ResultSet rs = null;
+        try {
+            Connection con = DriverManager.getConnection(
+                    "jdbc:mysql://P5164.svdomain1.softvision.ro:3306/bankingapp", "user", "user");
+            Statement stmt = con.createStatement();
+            rs = stmt.executeQuery(query);
+            rs.first();
+            rs.previous();
+            while (rs.next())
+                System.out.println(rs.getInt(1) + "  " + rs.getDouble(2) + "  "
+                        + rs.getInt(3) + "  " + rs.getInt(4) + "  " + rs.getInt(5));
+
+            return rs;
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return rs;
+    }
+
+    public static ResultSet returnPaymentDetails(int creditID) {
+        String query = "SELECT * FROM payments WHERE creditID = " + creditID + ";";
+        ResultSet rs = null;
+        try {
+            Connection con = DriverManager.getConnection(
+                    "jdbc:mysql://P5164.svdomain1.softvision.ro:3306/bankingapp", "user", "user");
+
+            Statement stmt = con.createStatement();
+            rs = stmt.executeQuery(query);
+            if (rs != null) {
+                while (rs.next())
+                    System.out.println(rs.getInt(1) + "  " + rs.getInt(2) + "  "
+                            + rs.getInt(3) + "  " + rs.getInt(4) + "  " + rs.getDouble(5)
+                            + " " + rs.getDate(6));
+                rs.first();
+            }
+            return rs;
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
         return rs;
     }
 }
