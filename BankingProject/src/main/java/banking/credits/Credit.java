@@ -31,6 +31,10 @@ public class Credit extends Product {
         return id;
     }
 
+    public void setTotalInstallment(double totalInstallment) {
+        this.totalInstallment = totalInstallment;
+    }
+
     public void setId(int id) {
         this.id = id;
     }
@@ -49,10 +53,6 @@ public class Credit extends Product {
 
     public void setMonthlyInstallment(double monthlyInstallment) {
         this.monthlyInstallment = monthlyInstallment;
-    }
-
-    public void setTotalInstallment(double totalInstallment) {
-        this.totalInstallment = totalInstallment;
     }
 
     public void setStartDate(LocalDate startDate) {
@@ -194,6 +194,7 @@ public class Credit extends Product {
     }
 
     public double getTotalMortgageToBePaid() {
+        double sumPayments = 0;
         for (Payment i : mortgagePaymentList) {
             sumPayments = sumPayments + i.getPaymentAmount();
         }
@@ -201,10 +202,16 @@ public class Credit extends Product {
     }
 
     public double getTotalAmountToBePaid() {
+        double sumPayments = computeSumPayments();
+        return creditValue - sumPayments;
+    }
+
+    public double computeSumPayments() {
+        double sumPayments = 0;
         for (Payment i : mortgagePaymentList) {
             sumPayments = sumPayments + i.getPaymentAmount();
         }
-        return creditValue - sumPayments;
+        return sumPayments;
     }
 
     public double addPenaltyAfterUnpaidThreeMonths() {
