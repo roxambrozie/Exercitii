@@ -89,36 +89,62 @@ public class MyAccount {
             Credit credit = new Credit();
             Deposit deposit = new Deposit();
             System.out.println(Constants.WISH_NEXT);
-            int userWish = scanner.nextInt();
+            int userWish;
 
-            switch (userWish) {
-                case 1:
-                    setCredits();
-                    break;
-                case 2:
-                    setDeposits();
-                    break;
-                case 3:
-                    setCredits();
-                    getCreditNameAndMonthlyInstallment();
-                    break;
-                case 4:
-                    setCredits();
-                    System.out.println("\nPlease enter the id of the credit you want to see the payments and check the amount left to be paid : ");
-                    int creditID = scanner.nextInt();
-                    System.out.println("\nThere have been made the following payments fot the requested credit :");
-                    ResultSet paymentResult = returnPaymentDetails(creditID);
+            do {
+                userWish = scanner.nextInt();
+                switch (userWish) {
+                    case 1:
+                        setCredits();
+                        break;
+                    case 2:
+                        setDeposits();
+                        break;
+                    case 3:
+                        setCredits();
+                        getCreditNameAndMonthlyInstallment();
+                        break;
+                    case 4:
+                        setCredits();
+                        System.out.println("\nPlease enter the id of the credit you want to see the payments and check the amount left to be paid : ");
+                        int creditID = scanner.nextInt();
+                        System.out.println("\nThere have been made the following payments fot the requested credit :");
+                        ResultSet paymentResult = returnPaymentDetails(creditID);
 
-                    setPayment(paymentResult, creditID);
-                    getCreditValueLeftToBePaid();
-                    break;
-                case 5:
-                    setCredits();
-                    credit.periodOfMonthsLeftToBePaid();
-                    break;
-                default:
-                    System.out.println("Invalid option.");
-            }
+                        setPayment(paymentResult, creditID);
+                        getCreditValueLeftToBePaid();
+                        break;
+                    case 5:
+                        this.setCredits();
+                        for (int i = 0; i < this.creditList.size(); i++) {
+                            this.creditList.get(i).getInstallmentAmountPerMonth();
+                            this.creditList.get(i).setTotalInstallment();
+                        }
+                        System.out.println("\nPlease enter the id of the credit you want to check the period in months left to be paid : ");
+                        int creditID1 = scanner.nextInt();
+                        ResultSet paymentResult1 = returnPaymentDetails(creditID1);
+                        setPayment(paymentResult1, creditID1);
+                        for (int i = 0; i < this.creditList.size(); i++) {
+                            if (this.creditList.get(i).getCreditID() == creditID1) {
+                                double k = this.creditList.get(i).computeSumPayments();
+                                this.creditList.get(i).setSumPayments(k);
+                                break;
+                            }
+                        }
+                        int noOfMonths = 0;
+                        for (int i = 0; i < this.creditList.size(); i++) {
+                            if (this.creditList.get(i).getCreditID() == creditID1) {
+                                noOfMonths = this.creditList.get(i).periodOfMonthsLeftToBePaid();
+                            }
+                        }
+                        System.out.println("The period left to be paid is " + noOfMonths + " months.");
+                        break;
+                    case 6:
+                        break;
+                    default:
+                        System.out.println("Invalid option.");
+                }
+            } while (userWish != 6);
         } else {
             System.out.println(Constants.INVALID_SSN);
         }
@@ -201,10 +227,10 @@ public class MyAccount {
                 payment1.setPaymentAmount(rs.getDouble(5));
                 payment1.setPaymentDate(rs.getDate(6).toLocalDate());
 
-                for (int i = 0; i < creditList.size(); i++) {
+                for (int i = 0; i < this.creditList.size(); i++) {
 
-                    if (creditList.get(i).getCreditID() == creditID) {
-                        creditList.get(i).addPaymentsToList(payment1);
+                    if (this.creditList.get(i).getCreditID() == creditID) {
+                        this.creditList.get(i).addPaymentsToList(payment1);
                         System.out.println(" ");
                         break;
                     }
