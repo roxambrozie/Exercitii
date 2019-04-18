@@ -4,6 +4,7 @@ import banking.credits.Credit;
 import banking.credits.EnumCredits;
 import banking.deposits.Deposit;
 import banking.deposits.EnumDeposits;
+import banking.payment.Payment;
 import banking.users.User;
 import banking.util.Constants;
 
@@ -56,12 +57,22 @@ public class MyAccount {
         });
     }
 
+    public void getCreditValueLeftToBePaid() {
+        creditList.forEach(credit -> {
+            System.out.println("The amount left to be paid for the credit with the id " + credit.getCreditID() + " is: " + credit.getTotalAmountToBePaid());
+        });
+    }
+
     public void addDepositsToUser(Deposit deposit) {
         insertDeposits(deposit);
     }
 
     public void addCreditsToUser(Credit credit) {
         insertCredits(credit);
+    }
+
+    public void addPayments(Payment payment) {
+        insertPayments(payment);
     }
 
     public void checkThatUserExistsInDatabase(int ssn) {
@@ -78,28 +89,62 @@ public class MyAccount {
             Credit credit = new Credit();
             Deposit deposit = new Deposit();
             System.out.println(Constants.WISH_NEXT);
-            int userWish = scanner.nextInt();
+            int userWish;
 
-            switch (userWish) {
-                case 1:
-                    setCredits();
-                    break;
-                case 2:
-                    setDeposits();
-                    break;
-                case 3:
-                    setCredits();
-                    getCreditNameAndMonthlyInstallment();
-                    break;
-                case 4:
-                    getCreditAmountLeftToBePaid();
-                    break;
-                case 5:
-                    credit.periodOfMonthsLeftToBePaid();
-                    break;
-                default:
-                    System.out.println("Invalid option.");
-            }
+            do {
+                userWish = scanner.nextInt();
+                switch (userWish) {
+                    case 1:
+                        setCredits();
+                        break;
+                    case 2:
+                        setDeposits();
+                        break;
+                    case 3:
+                        setCredits();
+                        getCreditNameAndMonthlyInstallment();
+                        break;
+                    case 4:
+                        setCredits();
+                        System.out.println("\nPlease enter the id of the credit you want to see the payments and check the amount left to be paid : ");
+                        int creditID = scanner.nextInt();
+                        System.out.println("\nThere have been made the following payments fot the requested credit :");
+                        ResultSet paymentResult = returnPaymentDetails(creditID);
+
+                        setPayment(paymentResult, creditID);
+                        getCreditValueLeftToBePaid();
+                        break;
+                    case 5:
+                        this.setCredits();
+                        for (int i = 0; i < this.creditList.size(); i++) {
+                            this.creditList.get(i).getInstallmentAmountPerMonth();
+                            this.creditList.get(i).setTotalInstallment();
+                        }
+                        System.out.println("\nPlease enter the id of the credit you want to check the period in months left to be paid : ");
+                        int creditID1 = scanner.nextInt();
+                        ResultSet paymentResult1 = returnPaymentDetails(creditID1);
+                        setPayment(paymentResult1, creditID1);
+                        for (int i = 0; i < this.creditList.size(); i++) {
+                            if (this.creditList.get(i).getCreditID() == creditID1) {
+                                double k = this.creditList.get(i).computeSumPayments();
+                                this.creditList.get(i).setSumPayments(k);
+                                break;
+                            }
+                        }
+                        int noOfMonths = 0;
+                        for (int i = 0; i < this.creditList.size(); i++) {
+                            if (this.creditList.get(i).getCreditID() == creditID1) {
+                                noOfMonths = this.creditList.get(i).periodOfMonthsLeftToBePaid();
+                            }
+                        }
+                        System.out.println("The period left to be paid is " + noOfMonths + " months.");
+                        break;
+                    case 6:
+                        break;
+                    default:
+                        System.out.println("Invalid option.");
+                }
+            } while (userWish != 6);
         } else {
             System.out.println(Constants.INVALID_SSN);
         }
@@ -132,8 +177,9 @@ public class MyAccount {
             rs.previous();
             while (rs.next()) {
                 Credit credit1 = new Credit();
-                credit1.setName(rs.getString(1));
                 credit1.setType(EnumCredits.Credits.getStringToEnum(rs.getString(2)));
+                credit1.setName(rs.getString(1));
+                credit1.setCreditID(rs.getInt(1));
                 credit1.setInterestRate(rs.getInt(3));
                 credit1.setStartDate(rs.getDate(4).toLocalDate());
                 credit1.setCreditValue(rs.getDouble(5));
@@ -167,6 +213,34 @@ public class MyAccount {
             e.printStackTrace();
         }
     }
+
+    public void setPayment(ResultSet rs, int creditID) {
+        try {
+            rs.first();
+            rs.previous();
+            while (rs.next()) {
+                Payment payment1 = new Payment();
+                payment1.setPaymentId(rs.getInt(1));
+                payment1.setCreditID(rs.getInt(2));
+                payment1.setDepositId(rs.getInt(3));
+                payment1.setId(rs.getInt(4));
+                payment1.setPaymentAmount(rs.getDouble(5));
+                payment1.setPaymentDate(rs.getDate(6).toLocalDate());
+
+                for (int i = 0; i < this.creditList.size(); i++) {
+
+                    if (this.creditList.get(i).getCreditID() == creditID) {
+                        this.creditList.get(i).addPaymentsToList(payment1);
+                        System.out.println(" ");
+                        break;
+                    }
+                }
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
 
 }
 
